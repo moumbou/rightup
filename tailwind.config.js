@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-srif"],
-        futura: ["Hind", "sans-srif"],
+        futura: ["Futura", "sans-srif"],
       },
       colors: {
         "r-white": "#FEF9FA",
