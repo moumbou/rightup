@@ -4,6 +4,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('/fonts/Futura_Bold_font.ttf') format('ttf');
+}
+
 @layer components {
   .h2-style {
     @apply font-futura text-5xl font-bold uppercase;
@@ -25,6 +32,9 @@
   }
   .li-before {
     @apply absolute w-[100%] h-[7px] bottom-0 left-0 translate-y-1 bg-r-dark
+  }
+  .input-form {
+    @apply py-5 p-style placeholder:p-style placeholder:text-r-dark pl-7 outline-none border-2 border-r-dark
   }
 }
 

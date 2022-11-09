@@ -18,6 +18,7 @@ module.exports = {
         "r-blue": "#007FFF",
         "r-yellow": "#FFB830",
         "r-red": "#FF003D",
+        "r-grey": "#ADA5A8",
       },
     },
   },
@@ -46,5 +47,9 @@ module.exports = {
       "responsive",
     ],
   },
-  plugins: [require("tailwindcss-children")],
+  plugins: [
+    require("tailwindcss-children"),
+    require("tailwindcss"),
+    require("autoprefixer"),
+  ],
 };
