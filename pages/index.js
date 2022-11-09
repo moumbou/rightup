@@ -51,8 +51,8 @@ export default function Home() {
 
         <div className="w-[100%]">
           <Image
-            height={256}
-            width={256}
+            height={1024}
+            width={1024}
             className="w-[100%]"
             src="/man-sitting.png"
             alt="man-sitting-picture"
@@ -74,8 +74,8 @@ export default function Home() {
             <Image
               src="/right-rounded.png"
               alt="right-rounded-color-image"
-              height={256}
-              width={256}
+              height={1024}
+              width={1024}
               className="w-[100%]"
             />
           </div>
@@ -161,17 +161,17 @@ export default function Home() {
         </ul>
 
         <div className="justify-center grid grid-cols-[repeat(3,_373px)] grid-rows-[repeat(5,_373px)] gap-5">
-          <Image src="/our_work/design-pic.png" alt="design-pic" width={250} height={250} className="h-[100%] w-[100%]" />
-          <Image src="/our_work/phone-pic.png" alt="design-pic" width={250} height={250} className="h-[100%] w-[100%]" />
-          <Image src="/our_work/card-pic.png" alt="design-pic" width={250} height={250} className="h-[100%] w-[100%]" />
-          <Image src="/our_work/allsafe-pic.png" alt="design-pic" width={250} height={250} className="row-span-2 h-[100%] w-[100%]" />
-          <Image src="/our_work/menu-pic.png" alt="design-pic" width={250} height={250} className="col-span-2 h-[100%] w-[100%]" />
-          <Image src="/our_work/hulios-pic.png" alt="design-pic" width={250} height={250} className="row-span-2 h-[100%] w-[100%]" />
-          <Image src="/our_work/alfit-pic.png" alt="design-pic" width={250} height={250} className="h-[100%] w-[100%]" />
-          <Image src="/our_work/skikda-itech-pic.png" alt="design-pic" width={250} height={250} className="h-[100%] w-[100%]" />
-          <Image src="/our_work/le-club-pic.png" alt="design-pic" width={250} height={250} className="h-[100%] w-[100%]" />
-          <Image src="/our_work/skikda-economic-forum-pic.png" alt="design-pic" width={250} height={250} className="col-span-2 h-[100%] w-[100%]" />
-          <Image src="/our_work/allsafe-card-pic.png" alt="design-pic" width={250} height={250} className="h-[100%] w-[100%]" />
+          <Image src="/our_work/design-pic.png" alt="design-pic" width={1024} height={1024} className="h-[100%] w-[100%]" />
+          <Image src="/our_work/phone-pic.png" alt="design-pic" width={1024} height={1024} className="h-[100%] w-[100%]" />
+          <Image src="/our_work/card-pic.png" alt="design-pic" width={1024} height={1024} className="h-[100%] w-[100%]" />
+          <Image src="/our_work/allsafe-pic.png" alt="design-pic" width={1024} height={1024} className="row-span-2 h-[100%] w-[100%]" />
+          <Image src="/our_work/menu-pic.png" alt="design-pic" width={1024} height={1024} className="col-span-2 h-[100%] w-[100%]" />
+          <Image src="/our_work/hulios-pic.png" alt="design-pic" width={1024} height={1024} className="row-span-2 h-[100%] w-[100%]" />
+          <Image src="/our_work/alfit-pic.png" alt="design-pic" width={1024} height={1024} className="h-[100%] w-[100%]" />
+          <Image src="/our_work/skikda-itech-pic.png" alt="design-pic" width={1024} height={1024} className="h-[100%] w-[100%]" />
+          <Image src="/our_work/le-club-pic.png" alt="design-pic" width={1024} height={1024} className="h-[100%] w-[100%]" />
+          <Image src="/our_work/skikda-economic-forum-pic.png" alt="design-pic" width={1024} height={1024} className="col-span-2 h-[100%] w-[100%]" />
+          <Image src="/our_work/allsafe-card-pic.png" alt="design-pic" width={1024} height={1024} className="h-[100%] w-[100%]" />
         </div>
       </div>
     </div>
