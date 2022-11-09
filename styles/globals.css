@@ -1,3 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@layer components {
+  .h2-style {
+    @apply font-futura text-5xl font-bold uppercase;
+  }
+  .p-style {
+    @apply font-inter text-xl font-normal;
+  }
+  .h4-style {
+    @apply font-inter font-bold text-4xl leading-10;
+  }
+  .li-style {
+    @apply py-3 drop-shadow-md bg-[#FFFAFB] p-style uppercase pl-4
+  }
+  .ul-style {
+    @apply flex flex-col gap-4 border-l-2 w-[95%] children:li-style
+  }
+  .work-section-div {
+    @apply w-[100%] h-[10px]
+  }
+  .li-before {
+    @apply absolute w-[100%] h-[7px] bottom-0 left-0 translate-y-1 bg-r-dark
+  }
+}
+
 html,
 body {
   padding: 0;
