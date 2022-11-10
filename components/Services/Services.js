@@ -4,7 +4,7 @@ import React from "react";
 export default function Services() {
   return (
     <>
-      <div className="mb-11">
+      <div className="mb-11" id="services">
         <h2 className="h2-style">Services</h2>
         <div className="grid grid-cols-[1fr_.5fr] gap-16">
           <div className="flex flex-col items-start justify-center gap-7">
@@ -16,7 +16,7 @@ export default function Services() {
           </div>
           <div className="w-[100%]">
             <Image
-              src="/right-rounded.png"
+              src="/right-rounded.svg"
               alt="right-rounded-color-image"
               height={1024}
               width={1024}
@@ -25,7 +25,7 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 relative z-20">
         <div className="flex flex-col gap-7">
           <div className="w-[100%] h-[17px] bg-r-blue"></div>
           <div>

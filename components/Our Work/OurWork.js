@@ -3,8 +3,9 @@ import React from "react";
 
 export default function OurWork() {
   return (
-    <div className="mb-36">
-      <div className="flex gap-6 mb-11">
+    <div className="mb-36 relative z-10" id="work">
+      <div className="flex gap-6 mb-11 relative">
+        <Image src="/arrowup.svg" alt="arrow-up-avg" width={1024} height={1024} className="absolute top-[50%] -translate-x-[55%] -translate-y-[20%] left-0 h-[922px] z-0"  />
         <h2 className="h2-style whitespace-nowrap">Our Work</h2>
         <div className="relative w-[100%]">
           <div className="absolute top-[50%] -translate-y-[50%] left-0 w-[150%] flex flex-col gap-[4px] children:work-section-div">

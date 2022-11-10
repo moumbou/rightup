@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function SplitText(node) {
@@ -44,6 +45,7 @@ export default function SpacingLetters() {
   return (
     <div className="mb-24">
       <p id="split-char" className="max-w-md h2-style relative !text-r-grey">
+        <Image src="/arrowsup.svg" alt="arrows-up-pic" width={255} height={255} className="absolute top-0 right-0 h-[150%] translate-x-[70%]" />
         professional
         <br />
         impactful

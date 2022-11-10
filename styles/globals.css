@@ -6,10 +6,10 @@
 
 @layer base {
   @font-face {
-    font-family: 'Futura';
+    font-family: "Futura";
     font-style: normal;
     font-weight: 700;
-    src: local(''), url('/fonts/Futura_Bold_font.woff2') format('woff2');
+    src: local(""), url("/fonts/Futura_Bold_font.woff2") format("woff2");
   }
 }
 
@@ -24,19 +24,22 @@
     @apply font-inter font-bold text-4xl leading-10;
   }
   .li-style {
-    @apply py-3 drop-shadow-md bg-[#FFFAFB] p-style uppercase pl-4
+    @apply py-3 drop-shadow-md bg-[#FFFAFB] p-style uppercase pl-4;
   }
   .ul-style {
-    @apply flex flex-col gap-4 border-l-2 w-[95%] children:li-style
+    @apply flex flex-col gap-4 border-l-2 w-[95%] children:li-style;
   }
   .work-section-div {
-    @apply w-[100%] h-[10px]
+    @apply w-[100%] h-[10px];
   }
   .li-before {
-    @apply absolute w-[100%] h-[7px] bottom-0 left-0 translate-y-1 bg-r-dark
+    @apply absolute w-[100%] h-[7px] bottom-0 left-0 translate-y-1 bg-r-dark;
   }
   .input-form {
-    @apply py-5 p-style placeholder:p-style placeholder:text-r-dark pl-7 outline-none border-2 border-r-dark bg-transparent
+    @apply py-5 p-style placeholder:p-style placeholder:text-r-dark pl-7 outline-none border-2 border-r-dark bg-transparent;
+  }
+  .button-up {
+    @apply outline-none drop-shadow-2xl fixed top-[100%] right-44 border-[3px] z-50 !p-0 w-[73px] h-[73px] border-r-dark bg-r-white flex justify-center items-center;
   }
 }
 

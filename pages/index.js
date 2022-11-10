@@ -1,18 +1,34 @@
+import React from "react";
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import About from "../components/About/About";
+import ButtonScrollUp from "../components/ButtonScrollUp";
 import Footer from "../components/Footer/Footer";
 import GetInTouch from "../components/Get In Touch/GetInTouch";
 import Heading from "../components/Heading/Heading";
 import NavBar from "../components/Nav Bar/NavBar";
 import OurWork from "../components/Our Work/OurWork";
 import Services from "../components/Services/Services";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
+  const [scrolled, setScroll] = React.useState(false);
+  const [display, setDisplay] = React.useState(false);
+
+  React.useEffect(() => {
+    window.onscroll = () => {
+      let top = window.pageYOffset;
+      if (top > 0) setScroll(true);
+      else setScroll(false);
+
+      let services = document
+        .getElementById("services")
+        .getBoundingClientRect().top;
+      if (services > 100) setDisplay(false);
+      else setDisplay(true);
+    };
+  }, []);
+
   return (
-    <div className="pt-6 children:px-44 bg-r-main text-r-dark overflow-hidden">
+    <div className="pt-32 children:px-44 bg-r-main text-r-dark overflow-hidden relative">
       <Head>
         <title>RightUp</title>
         <meta
@@ -22,7 +38,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <NavBar />
+      <ButtonScrollUp display={display} />
+
+      <NavBar display={scrolled} />
 
       <Heading />
 

@@ -4,10 +4,11 @@ import SpacingLetters from "./SpacingLetters";
 
 export default function About() {
   return (
-    <div className="!px-0 mb-20">
-      <h2 className="h2-style px-44 mb-7">ABOUT</h2>
+    <div className="!px-0 mb-20" id="about">
+      <h2 className="h2-style px-44 mb-7 z-10 relative">ABOUT</h2>
       <div className="w-[100%] !bg-r-dark relative z-0">
-        <div className="grid grid-cols-3 mb-7">
+        <Image src="/arrows.svg" alt="arrows-pic" height={1024} width={1024} className="absolute top-[50%] left-[50%] -translate-x-[50%] w-[90%] h-max -translate-y-[45%]" />
+        <div className="grid grid-cols-3 mb-7 relative z-10">
           <div className="w-[100%] h-[17px] bg-r-blue"></div>
           <div className="w-[100%] h-[17px] bg-r-yellow"></div>
           <div className="w-[100%] h-[17px] bg-r-red"></div>
